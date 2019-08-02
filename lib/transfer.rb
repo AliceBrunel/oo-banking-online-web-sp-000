@@ -19,6 +19,7 @@ class Transfer
       sender.balance = sender.balance + @amount
     else
       puts "Reject"
+    end
   end
   
 end
