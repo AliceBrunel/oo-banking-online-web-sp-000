@@ -18,7 +18,7 @@ class Transfer
     if sender.valid?
       receiver.balance = receiver.balance + @amount
       sender.balance = sender.balance - @amount
-      @status = 'completed'
+      @status = 'complete'
     else
       puts "Reject"
     end
